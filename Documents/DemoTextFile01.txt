@@ -1,0 +1,6 @@
+SSN,FIRSTNAME,LASTNAME
+123456789,john,doe
+213456790,Obrien,mil
+313456791,Emma,Roberts
+453456792,Joshua,Clark
+123450@800,Jessica,Moore

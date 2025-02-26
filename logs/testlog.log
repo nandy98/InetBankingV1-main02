@@ -1,0 +1,779 @@
+2024-10-19 20:38:31 INFO  Scrubs - ChromeDriver Launched
+2024-10-19 20:38:31 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-19 20:38:58 INFO  Scrubs - URL opened successfully
+2024-10-19 20:38:59 INFO  Scrubs - ChromeDriver Closed
+2024-10-19 20:45:36 INFO  Scrubs - ChromeDriver Launched
+2024-10-19 20:45:36 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-19 20:46:04 INFO  Scrubs - URL opened successfully
+2024-10-19 20:46:05 INFO  Scrubs - ChromeDriver Closed
+2024-10-19 21:10:02 INFO  Scrubs - ChromeDriver Launched
+2024-10-19 21:10:02 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-19 21:10:24 INFO  Scrubs - URL opened successfully
+2024-10-19 21:10:25 INFO  Scrubs - ChromeDriver Closed
+2024-10-19 21:14:44 INFO  Scrubs - ChromeDriver Launched
+2024-10-19 21:14:44 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-19 21:15:07 INFO  Scrubs - URL opened successfully
+2024-10-19 21:15:08 INFO  Scrubs - ChromeDriver Closed
+2024-10-21 14:23:11 INFO  Scrubs - ChromeDriver Launched
+2024-10-21 14:23:11 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-21 14:23:38 INFO  Scrubs - URL opened successfully
+2024-10-21 14:23:38 INFO  Scrubs - ChromeDriver Closed
+2024-10-21 14:24:23 INFO  Scrubs - FirefoxDriver Launched
+2024-10-21 14:24:23 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-21 14:24:33 INFO  Scrubs - URL opened successfully
+2024-10-21 14:24:34 INFO  Scrubs - ChromeDriver Closed
+2024-10-21 19:50:41 INFO  Scrubs - ChromeDriver Launched
+2024-10-21 19:50:41 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-21 19:51:11 INFO  Scrubs - URL opened successfully
+2024-10-21 19:51:12 INFO  Scrubs - ChromeDriver Closed
+2024-10-21 20:12:10 INFO  Scrubs - ChromeDriver Launched
+2024-10-21 20:12:10 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-21 20:12:28 INFO  Scrubs - URL opened successfully
+2024-10-21 20:12:29 INFO  Scrubs - ChromeDriver Closed
+2024-10-21 20:13:41 INFO  Scrubs - ChromeDriver Launched
+2024-10-21 20:13:42 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-21 20:14:08 INFO  Scrubs - URL opened successfully
+2024-10-21 20:14:10 INFO  Scrubs - ChromeDriver Closed
+2024-10-23 12:44:49 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 12:44:49 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 12:44:59 INFO  Scrubs - URL opened successfully
+2024-10-23 12:45:00 INFO  Scrubs - ChromeDriver Closed
+2024-10-23 12:53:12 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 12:53:12 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 12:53:23 INFO  Scrubs - URL opened successfully
+2024-10-23 12:53:28 INFO  Scrubs - ChromeDriver Closed
+2024-10-23 13:12:31 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 13:12:31 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 13:12:42 INFO  Scrubs - URL opened successfully
+2024-10-23 13:12:42 INFO  Scrubs - Entered username
+2024-10-23 13:12:42 INFO  Scrubs - Entered password
+2024-10-23 13:12:42 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 13:12:42 INFO  Scrubs - WebDriver Closed
+2024-10-23 13:14:35 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 13:14:35 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 13:14:45 INFO  Scrubs - URL opened successfully
+2024-10-23 13:14:45 INFO  Scrubs - Entered username
+2024-10-23 13:14:45 INFO  Scrubs - Entered password
+2024-10-23 13:14:46 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 13:14:46 INFO  Scrubs - WebDriver Closed
+2024-10-23 13:19:11 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 13:19:11 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 13:19:21 INFO  Scrubs - URL opened successfully
+2024-10-23 13:19:21 INFO  Scrubs - Entered username
+2024-10-23 13:19:21 INFO  Scrubs - Entered password
+2024-10-23 13:19:22 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 13:19:22 INFO  Scrubs - WebDriver Closed
+2024-10-23 13:25:18 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 13:25:18 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 13:25:28 INFO  Scrubs - URL opened successfully
+2024-10-23 13:25:28 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 13:25:28 INFO  Scrubs - Entered password
+2024-10-23 13:25:29 INFO  Scrubs - Clicked on login button
+2024-10-23 13:25:29 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 13:25:29 INFO  Scrubs - WebDriver Closed
+2024-10-23 13:29:29 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 13:29:29 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 13:29:39 INFO  Scrubs - URL opened successfully
+2024-10-23 13:29:39 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 13:29:39 INFO  Scrubs - Entered password
+2024-10-23 13:29:39 INFO  Scrubs - Clicked on login button
+2024-10-23 13:29:40 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 13:29:40 INFO  Scrubs - WebDriver Closed
+2024-10-23 13:30:40 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 13:30:40 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 13:30:49 INFO  Scrubs - URL opened successfully
+2024-10-23 13:30:49 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 13:30:50 INFO  Scrubs - Entered password
+2024-10-23 13:30:50 INFO  Scrubs - Clicked on login button
+2024-10-23 13:30:50 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 13:30:51 INFO  Scrubs - WebDriver Closed
+2024-10-23 13:32:09 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 13:32:09 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 13:32:21 INFO  Scrubs - URL opened successfully
+2024-10-23 13:32:21 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 13:32:21 INFO  Scrubs - Entered password
+2024-10-23 13:32:21 INFO  Scrubs - Clicked on login button
+2024-10-23 13:32:21 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 13:32:22 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:02:16 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:02:16 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:02:26 INFO  Scrubs - URL opened successfully
+2024-10-23 15:02:26 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:02:26 INFO  Scrubs - Entered password
+2024-10-23 15:02:26 INFO  Scrubs - Clicked on login button
+2024-10-23 15:02:27 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 15:02:29 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:04:48 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:04:48 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:04:57 INFO  Scrubs - URL opened successfully
+2024-10-23 15:04:57 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:04:58 INFO  Scrubs - Entered password
+2024-10-23 15:04:58 INFO  Scrubs - Clicked on login button
+2024-10-23 15:04:58 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 15:04:59 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:07:02 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:07:02 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:07:03 INFO  Scrubs - URL opened successfully
+2024-10-23 15:07:12 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:07:12 INFO  Scrubs - Entered password
+2024-10-23 15:07:12 INFO  Scrubs - Clicked on login button
+2024-10-23 15:07:13 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 15:07:14 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:09:43 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:09:44 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:09:53 INFO  Scrubs - URL opened successfully
+2024-10-23 15:09:53 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:09:54 INFO  Scrubs - Entered password
+2024-10-23 15:09:54 INFO  Scrubs - Clicked on login button
+2024-10-23 15:10:15 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:13:44 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:13:44 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:13:53 INFO  Scrubs - URL opened successfully
+2024-10-23 15:13:54 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:13:54 INFO  Scrubs - Entered password
+2024-10-23 15:13:54 INFO  Scrubs - Clicked on login button
+2024-10-23 15:13:54 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 15:13:55 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:16:59 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:16:59 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:17:09 INFO  Scrubs - URL opened successfully
+2024-10-23 15:17:09 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:17:09 INFO  Scrubs - Entered password
+2024-10-23 15:17:09 INFO  Scrubs - Clicked on login button
+2024-10-23 15:17:09 ERROR Scrubs - Assertion error during login test
+java.lang.AssertionError: Login failed: Actual title was: Serv-U expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC_LoginTest_001.loginTest(TC_LoginTest_001.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2024-10-23 15:17:12 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:20:49 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:20:49 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:20:58 INFO  Scrubs - URL opened successfully
+2024-10-23 15:20:59 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:20:59 INFO  Scrubs - Entered password
+2024-10-23 15:20:59 INFO  Scrubs - Clicked on login button
+2024-10-23 15:21:02 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:24:00 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:24:00 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:24:10 INFO  Scrubs - URL opened successfully
+2024-10-23 15:24:11 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:24:11 INFO  Scrubs - Entered password
+2024-10-23 15:24:11 INFO  Scrubs - Clicked on login button
+2024-10-23 15:24:14 INFO  Scrubs - WebDriver Closed
+2024-10-23 15:25:09 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 15:25:09 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 15:25:19 INFO  Scrubs - URL opened successfully
+2024-10-23 15:25:19 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 15:25:19 INFO  Scrubs - Entered password
+2024-10-23 15:25:19 INFO  Scrubs - Clicked on login button
+2024-10-23 15:25:22 INFO  Scrubs - WebDriver Closed
+2024-10-23 17:01:21 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 17:01:21 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 17:01:22 INFO  Scrubs - URL opened successfully
+2024-10-23 17:01:31 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 17:01:31 INFO  Scrubs - Entered password
+2024-10-23 17:01:31 INFO  Scrubs - Clicked on login button
+2024-10-23 17:01:33 INFO  Scrubs - WebDriver Closed
+2024-10-23 17:01:36 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 17:01:42 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:02:52 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:02:52 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:02:58 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:02:58 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 20:03:09 INFO  Scrubs - URL opened successfully
+2024-10-23 20:03:09 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 20:03:10 INFO  Scrubs - Entered password
+2024-10-23 20:03:10 INFO  Scrubs - Clicked on login button
+2024-10-23 20:03:11 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:04:30 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:04:31 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:05:28 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:05:46 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:07:10 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:07:28 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:09:19 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:09:37 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:11:53 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:12:13 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:12:47 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:13:12 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:21:53 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:22:40 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:27:25 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:28:07 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:28:26 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:28:51 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:31:24 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:31:50 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:31:53 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:31:53 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 20:31:55 INFO  Scrubs - URL opened successfully
+2024-10-23 20:32:05 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 20:32:05 INFO  Scrubs - Entered password
+2024-10-23 20:32:06 INFO  Scrubs - Clicked on login button
+2024-10-23 20:32:11 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:33:24 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:33:58 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:34:02 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:34:02 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 20:34:14 INFO  Scrubs - URL opened successfully
+2024-10-23 20:34:14 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 20:34:15 INFO  Scrubs - Entered password
+2024-10-23 20:34:15 INFO  Scrubs - Clicked on login button
+2024-10-23 20:34:16 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:36:38 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:37:07 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:37:10 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:37:10 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 20:37:22 INFO  Scrubs - URL opened successfully
+2024-10-23 20:37:22 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 20:37:22 INFO  Scrubs - Entered password
+2024-10-23 20:37:22 INFO  Scrubs - Clicked on login button
+2024-10-23 20:37:23 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:47:37 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:48:00 INFO  Scrubs - WebDriver Closed
+2024-10-23 20:48:03 INFO  Scrubs - ChromeDriver Launched
+2024-10-23 20:48:03 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-23 20:48:15 INFO  Scrubs - URL opened successfully
+2024-10-23 20:48:15 INFO  Scrubs - Entered username: scrub_QA
+2024-10-23 20:48:16 INFO  Scrubs - Entered password
+2024-10-23 20:48:16 INFO  Scrubs - Clicked on login button
+2024-10-23 20:48:17 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:46:32 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:46:32 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 13:46:42 INFO  Scrubs - URL opened successfully
+2024-10-24 13:46:42 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 13:46:43 INFO  Scrubs - Entered password
+2024-10-24 13:46:43 INFO  Scrubs - Clicked on login button
+2024-10-24 13:46:43 INFO  Scrubs - Smile
+2024-10-24 13:46:44 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:49:58 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:50:18 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:50:20 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:50:20 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 13:50:30 INFO  Scrubs - URL opened successfully
+2024-10-24 13:50:30 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 13:50:30 INFO  Scrubs - Entered password
+2024-10-24 13:50:30 INFO  Scrubs - Clicked on login button
+2024-10-24 13:50:30 INFO  Scrubs - Smile
+2024-10-24 13:50:31 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:53:53 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:54:36 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:56:20 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:56:53 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:57:07 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:57:42 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:58:00 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:58:01 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 13:58:10 INFO  Scrubs - URL opened successfully
+2024-10-24 13:58:10 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 13:58:10 INFO  Scrubs - Entered password
+2024-10-24 13:58:11 INFO  Scrubs - Clicked on login button
+2024-10-24 13:58:11 INFO  Scrubs - Smile
+2024-10-24 13:58:11 INFO  Scrubs - WebDriver Closed
+2024-10-24 13:58:55 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 13:58:55 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 13:59:05 INFO  Scrubs - URL opened successfully
+2024-10-24 13:59:05 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 13:59:05 INFO  Scrubs - Entered password
+2024-10-24 13:59:05 INFO  Scrubs - Clicked on login button
+2024-10-24 13:59:25 INFO  Scrubs - Smile
+2024-10-24 13:59:26 INFO  Scrubs - WebDriver Closed
+2024-10-24 14:04:16 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 14:04:49 INFO  Scrubs - WebDriver Closed
+2024-10-24 14:05:10 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 14:05:45 INFO  Scrubs - WebDriver Closed
+2024-10-24 14:07:53 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 14:08:33 INFO  Scrubs - WebDriver Closed
+2024-10-24 14:10:42 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 14:11:24 INFO  Scrubs - WebDriver Closed
+2024-10-24 14:11:26 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 14:11:26 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 14:11:37 INFO  Scrubs - URL opened successfully
+2024-10-24 14:11:37 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 14:11:37 INFO  Scrubs - Entered password
+2024-10-24 14:11:37 INFO  Scrubs - Clicked on login button
+2024-10-24 14:11:37 INFO  Scrubs - Smile
+2024-10-24 14:11:38 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:20:25 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:21:05 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:21:08 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:21:09 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 15:21:19 INFO  Scrubs - URL opened successfully
+2024-10-24 15:21:19 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 15:21:19 INFO  Scrubs - Entered password
+2024-10-24 15:21:19 INFO  Scrubs - Clicked on login button
+2024-10-24 15:21:19 INFO  Scrubs - Smile
+2024-10-24 15:21:20 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:28:05 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:28:44 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:28:47 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:28:47 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 15:28:56 INFO  Scrubs - URL opened successfully
+2024-10-24 15:28:57 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 15:28:57 INFO  Scrubs - Entered password
+2024-10-24 15:28:57 INFO  Scrubs - Clicked on login button
+2024-10-24 15:28:57 INFO  Scrubs - Smile
+2024-10-24 15:28:58 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:37:34 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:38:13 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:38:16 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:38:16 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 15:38:26 INFO  Scrubs - URL opened successfully
+2024-10-24 15:38:26 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 15:38:26 INFO  Scrubs - Entered password
+2024-10-24 15:38:26 INFO  Scrubs - Clicked on login button
+2024-10-24 15:38:26 INFO  Scrubs - Smile
+2024-10-24 15:38:27 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:43:39 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:44:18 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:44:21 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:44:21 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 15:44:30 INFO  Scrubs - URL opened successfully
+2024-10-24 15:44:31 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 15:44:31 INFO  Scrubs - Entered password
+2024-10-24 15:44:31 INFO  Scrubs - Clicked on login button
+2024-10-24 15:44:31 INFO  Scrubs - Smile
+2024-10-24 15:44:37 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:53:32 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:54:11 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:54:14 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:54:14 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 15:54:26 INFO  Scrubs - URL opened successfully
+2024-10-24 15:54:26 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 15:54:26 INFO  Scrubs - Entered password
+2024-10-24 15:54:26 INFO  Scrubs - Clicked on login button
+2024-10-24 15:54:27 INFO  Scrubs - Smile
+2024-10-24 15:54:28 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:57:20 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:58:21 INFO  Scrubs - WebDriver Closed
+2024-10-24 15:58:24 INFO  Scrubs - ChromeDriver Launched
+2024-10-24 15:58:24 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-24 15:58:35 INFO  Scrubs - URL opened successfully
+2024-10-24 15:58:35 INFO  Scrubs - Entered username: scrub_QA
+2024-10-24 15:58:35 INFO  Scrubs - Entered password
+2024-10-24 15:58:35 INFO  Scrubs - Clicked on login button
+2024-10-24 15:58:36 INFO  Scrubs - Smile
+2024-10-24 15:58:37 INFO  Scrubs - WebDriver Closed
+2024-10-25 16:48:41 INFO  Scrubs - ChromeDriver Launched
+2024-10-25 16:48:42 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-25 16:48:52 INFO  Scrubs - URL opened successfully
+2024-10-25 16:48:52 INFO  Scrubs - Entered username: scrub_QA
+2024-10-25 16:48:52 INFO  Scrubs - Entered password
+2024-10-25 16:48:52 INFO  Scrubs - Clicked on login button
+2024-10-25 16:48:54 INFO  Scrubs - WebDriver Closed
+2024-10-25 16:48:57 INFO  Scrubs - ChromeDriver Launched
+2024-10-25 16:49:19 INFO  Scrubs - WebDriver Closed
+2024-10-25 16:53:43 INFO  Scrubs - ChromeDriver Launched
+2024-10-25 16:53:43 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-25 16:53:53 INFO  Scrubs - URL opened successfully
+2024-10-25 16:53:54 INFO  Scrubs - Entered username: scrub_QA
+2024-10-25 16:53:54 INFO  Scrubs - Entered password
+2024-10-25 16:53:54 INFO  Scrubs - Clicked on login button
+2024-10-25 16:53:55 INFO  Scrubs - WebDriver Closed
+2024-10-25 16:55:14 INFO  Scrubs - ChromeDriver Launched
+2024-10-25 16:55:14 INFO  Scrubs - Opening URL: https://ftp1.surefiredata.com/
+2024-10-25 16:55:24 INFO  Scrubs - URL opened successfully
+2024-10-25 16:55:24 INFO  Scrubs - Entered username: scrub_QA
+2024-10-25 16:55:24 INFO  Scrubs - Entered password
+2024-10-25 16:55:24 INFO  Scrubs - Clicked on login button
+2024-10-25 16:55:27 INFO  Scrubs - WebDriver Closed
+2024-10-25 16:55:30 INFO  Scrubs - ChromeDriver Launched
+2024-10-25 16:55:52 INFO  Scrubs - WebDriver Closed
+2024-10-25 16:58:35 INFO  Scrubs - ChromeDriver Launched
+2024-10-25 16:58:58 INFO  Scrubs - WebDriver Closed
+2024-10-25 16:59:41 INFO  Scrubs - ChromeDriver Launched
+2024-10-25 17:00:11 INFO  Scrubs - WebDriver Closed
